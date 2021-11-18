@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500&family=Poppins:wght@200;300;400&family=Work+Sans:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+
+a{
+    color: black;
+    text-decoration: none;
+} 
+
+.card-img-top{
+    margin: 0 0 15px;
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 100%;
+}
+
+.cards{
+    height: 560px;
+}
+
+.botons{
+    text-align: center;
+    height: 25px;
+    width: 55px;
+}
+
+.botons>a{
+    margin: 0 0 0 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.botons>a:hover{
+    color: blanchedalmond;
+    transform: scale(1.05)
+
+}
+.bi{
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+
+}
+
+.card-text{
+    min-height: 170px;
+}
+
+
+.ht:hover{
+    color: rgb(236, 71, 49);
+    
+
+}
+
+.mar{
+    margin: 0 10px 0 10px;
+}
+
+.qc:hover{
+    background-color: rgb(158, 158, 158);
+    border-radius: 50%;
+}
+
+.boton>a:hover{
+    color: blanchedalmond;
+
+}
+
+.boton:hover{
+    color: blanchedalmond;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cards{
+    margin: 25px 0px 25px 25px ;
+    
+}
+
+.cards:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*
+ background-color: cadetblue;
+*/
+
